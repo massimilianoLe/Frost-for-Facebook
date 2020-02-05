@@ -35,10 +35,8 @@ android {
         applicationId "${project.APP_GROUP}.${project.APP_ID.toLowerCase(Locale.CANADA)}"
         minSdkVersion kau.Versions.minSdk
         targetSdkVersion Versions.targetSdk
-        versionCode androidGitVersion.code()
-        // versionCode 2040300
-        versionName androidGitVersion.name()
-        // versionName 2.4.3
+        versionCode 2040300
+        versionName '2.4.3'
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         javaCompileOptions {
